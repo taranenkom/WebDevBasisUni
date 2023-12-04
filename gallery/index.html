@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Some lesson</title>
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon"> 
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header class="header">
+      The header is not yet implemented.
+    </header>
+    <main class="page">
+      <div class="page__body">
+        <div class="page__image-truck image-truck" data-mouse-down-at="0" data-prev-percentage="0">
+            <div id='uploadButton' class="image-truck__item">
+              <label for="fileInput" class="add-image-label">
+                <input id="fileInput" type="file" />
+              </label>
+            </div>
+          <div class="image-truck__item">
+            <img draggable="false" draggable="false"
+              src="https://images.unsplash.com/photo-1700410426376-6f653be287d2?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDMxfEpwZzZLaWRsLUhrfHxlbnwwfHx8fHw%3D"
+              alt="Gallery item" class="image-truck__image">
+          </div>
+          <div class="image-truck__item">
+            <img draggable="false"
+              src="https://images.unsplash.com/photo-1700162931543-cb6e3dd06dbf?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDMzfEpwZzZLaWRsLUhrfHxlbnwwfHx8fHw%3D"
+              alt="Gallery item" class="image-truck__image">
+          </div>
+          <div class="image-truck__item">
+            <img draggable="false"
+              src="https://images.unsplash.com/photo-1689897319489-90486828911f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDM2fEpwZzZLaWRsLUhrfHxlbnwwfHx8fHw%3D"
+              alt="Gallery item" class="image-truck__image">
+          </div>
+          <div class="image-truck__item">
+            <img draggable="false"
+              src="https://images.unsplash.com/photo-1675573813902-8285b039be2f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDM3fEpwZzZLaWRsLUhrfHxlbnwwfHx8fHw%3D"
+              alt="Gallery item" class="image-truck__image">
+          </div>
+          <div class="image-truck__item">
+            <img draggable="false"
+              src="https://images.unsplash.com/photo-1700054200641-e1f4c49974af?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDM4fEpwZzZLaWRsLUhrfHxlbnwwfHx8fHw%3D"
+              alt="Gallery item" class="image-truck__image">
+          </div>
+          <div class="image-truck__item">
+            <img draggable="false"
+              src="https://images.unsplash.com/photo-1700044136066-c50842b3b0d3?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDM5fEpwZzZLaWRsLUhrfHxlbnwwfHx8fHw%3D"
+              alt="Gallery item" class="image-truck__image">
+          </div>
+          <div class="image-truck__item">
+            <img draggable="false"
+              src="https://images.unsplash.com/photo-1700048614554-a20ac206a49e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDQwfEpwZzZLaWRsLUhrfHxlbnwwfHx8fHw%3D"
+              alt="Gallery item" class="image-truck__image">
+          </div>
+          <div class="image-truck__item">
+            <img draggable="false"
+              src="https://images.unsplash.com/photo-1699893903775-e51b7972aa25?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDQxfEpwZzZLaWRsLUhrfHxlbnwwfHx8fHw%3D"
+              alt="Gallery item" class="image-truck__image">
+          </div>
+        </div>
+
+        <div class="page__expanded expanded" id="expanded">
+          <div class="expanded__image-box">
+            <img
+              src="https://images.unsplash.com/photo-1669589000814-285d34773627?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDQ1fEpwZzZLaWRsLUhrfHxlbnwwfHx8fHw%3D"
+              alt="expanded image" class="expanded__img">
+          </div>
+          <div class="expanded__info">
+            <div class="expanded__timestamp">01.02.2005</div>
+            <div class="expanded__desc">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nam error hic dolor laudantium unde
+                quidem, quia expedita sed sunt dolorem fugit in veniam delectus ea quo, deleniti temporibus ut.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      The footer is not yet implemented.
+    </footer>
+  </div>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>
